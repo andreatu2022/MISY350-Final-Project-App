@@ -1,0 +1,16 @@
+[
+{
+"id": "1",
+"email": "owner@school.edu",
+"full_name": "System Owner",
+"password": "123",
+"role": "Owner"
+},
+{
+"id": "2",
+"email": "employee@school.edu",
+"full_name": "System Employee",
+"password": "1234",
+"role": "Employee"
+}
+]
