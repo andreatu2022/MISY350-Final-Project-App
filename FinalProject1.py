@@ -5,7 +5,7 @@ import datetime
 import uuid
 import time
 
-st.set_page_config(page_title="The Sunshine Bakery and Shop Website - test",
+st.set_page_config(page_title="The Sunshine Bakery and Shop Website",
     page_icon = "",
     layout = "centered")
 backgroundcolor = "#FFFF93"
@@ -100,6 +100,8 @@ elif st.session_state["page"] == "owner_login":
 
         else:
             st.error("Invalid Credentials!")
+
+#Owner Dashboard
 elif st.session_state["page"] == "owner_dashboard":
     st.title("Owner Dashboard")
     st.success("Welcome to the Owner Dashboard")
@@ -130,6 +132,8 @@ elif st.session_state["page"] == "employee_login":
 
         else:
             st.error("Invalid Credentials!")
+
+#Employee Dashboard
 elif st.session_state["page"] == "employee_dashboard":
     st.success("Welcome to the Employee Dashboard")
     st.title("Employee Dashboard")
@@ -139,8 +143,10 @@ elif st.session_state["page"] == "employee_dashboard":
         st.text_input("Select Product")
     with tab2:
         st.subheader("Daily Sales")
+        st.text_input("Enter Sale")
     with tab3:
         st.subheader("Inventory")
+
     
     
   
