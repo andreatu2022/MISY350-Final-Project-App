@@ -5,7 +5,7 @@ import datetime
 import uuid
 import time
 
-st.set_page_config(page_title="The Sunshine Bakery and Shop Website",
+st.set_page_config(page_title="The Sunshine Bakery and Shop Website - test",
     page_icon = "",
     layout = "centered")
 backgroundcolor = "#FFFF93"
